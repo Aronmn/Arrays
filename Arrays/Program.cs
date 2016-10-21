@@ -33,6 +33,8 @@ namespace Arrays
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(siffor[i]);
+            //Övning 3
+
 
           }
        }
