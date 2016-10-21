@@ -30,7 +30,7 @@ namespace Arrays
                 Console.Write("Mata in siffor   ");
                 siffor[i] = Console.ReadLine();
             }
-            for (int i = 0; i < 10; i++)
+            for (int i = 9; i >= 0; i--)
             {
                 Console.WriteLine(siffor[i]);
             //Övning 3
