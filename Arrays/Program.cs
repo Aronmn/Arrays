@@ -10,12 +10,31 @@ namespace Arrays
     {
         static void Main(string[] args)
         {   //Övning 1
-            for (int x = 0; x < 10; x++;){
-                Console.Write("Mata in namn");
-                string[] ord = new string[10] { };
-                ord[] = Console.ReadLine();
+            string[] ord = new string[10];
+
+            for (int x = 0; x < 10; x++){
+                Console.Write("Mata in namn  ");
+                ord[x] = Console.ReadLine();
             }
-             foreach (int i in namnLista) ;
-        }
+
+            for (int x = 0; x < 10; x++)
+            {
+               Console.WriteLine(ord[x]);
+            }
+
+            //Övning 2
+            string[] siffor = new string[10];
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.Write("Mata in siffor   ");
+                siffor[i] = Console.ReadLine();
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(siffor[i]);
+
+          }
+       }
     }
 }
