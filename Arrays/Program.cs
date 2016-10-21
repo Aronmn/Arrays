@@ -10,11 +10,12 @@ namespace Arrays
     {
         static void Main(string[] args)
         {   //Övning 1
-            Console.Write("Mata in 10 namn");
-            var namn = Console.ReadLine();
-
-            string[] ord = new string[10] { };  
-            foreach ( )    
+            for (int x = 0; x < 10; x++;){
+                Console.Write("Mata in namn");
+                string[] ord = new string[10] { };
+                ord[] = Console.ReadLine();
+            }
+             foreach (int i in namnLista) ;
         }
     }
 }
