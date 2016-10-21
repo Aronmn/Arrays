@@ -33,7 +33,8 @@ namespace Arrays
             for (int i = 9; i >= 0; i--)
             {
                 Console.WriteLine(siffor[i]);
-            //Övning 3
+                //Övning 3
+                int[] lista = { 12, 5, 6, 1, 2, 3, -2, -7, 0 };
 
 
           }
